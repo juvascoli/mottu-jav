@@ -1,10 +1,13 @@
-package br.com.fiap.challenge.model;
+package com.moop.challenge.model;
+
+
+import org.springframework.hateoas.RepresentationModel;
 
 import jakarta.persistence.*;
 
 @Entity
 @Table(name = "tbl_moto")
-public class Moto {
+public class Moto  extends RepresentationModel<Moto> {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
@@ -23,9 +26,6 @@ public class Moto {
     @Column(nullable = false, length = 30)
     private String modelo;
 
-    @Column(name = "id_camera", nullable = false)
-    private Integer idCamera;
-
     public Moto() {
     }
 
@@ -35,7 +35,6 @@ public class Moto {
         this.chassi = chassi;
         this.status = status;
         this.modelo = modelo;
-        this.idCamera = idCamera;
     }
 
     public Long getId() {
@@ -78,11 +77,6 @@ public class Moto {
         this.modelo = modelo;
     }
 
-    public Integer getIdCamera() {
-        return idCamera;
-    }
 
-    public void setIdCamera(Integer idCamera) {
-        this.idCamera = idCamera;
-    }
+
 }
