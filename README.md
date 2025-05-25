@@ -7,10 +7,10 @@ Este projeto é uma aplicação Spring Boot desenvolvida para gerenciar o contro
 Ele simula um sistema interno de gerenciamento de ativos para empresas que operam com frotas de motos, como locadoras ou serviços de logística.
 
 ---
-## TDesenvolvedores
--Julia Vasconcelos RM:558785 Turma: 2TDSPF
--Leonardo Cadena
--Davi Gonzaga
+## Desenvolvedores
+- **Julia Vasconcelos RM:558785 Turma: 2TDSPF**
+- **Leonardo Cadena RM:xx Turma: 2xx**
+- **Davi Gonzaga RM:xx Turma: 2xx**
 
 ## Tecnologias Utilizadas
 
