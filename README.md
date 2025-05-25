@@ -8,9 +8,9 @@ Ele simula um sistema interno de gerenciamento de ativos para empresas que opera
 
 ---
 ## TDesenvolvedores
---Julia Vasconcelos RM:558785 Turma: 2TDSPF
---Leonardo Cadena
---Davi Gonzaga
+-Julia Vasconcelos RM:558785 Turma: 2TDSPF
+-Leonardo Cadena
+-Davi Gonzaga
 
 ## Tecnologias Utilizadas
 
@@ -26,7 +26,7 @@ Ele simula um sistema interno de gerenciamento de ativos para empresas que opera
 
 ---
 
-## 🧩 Principais Funcionalidades
+##  Principais Funcionalidades
 
 - Cadastro e atualização de **motos**
 - Gerenciamento de **galpões** (local de armazenamento)
@@ -40,7 +40,6 @@ Ele simula um sistema interno de gerenciamento de ativos para empresas que opera
 
 ---
 
-##  Como Executar
 
 ### Pré-requisitos:
 - JDK 17 instalado
